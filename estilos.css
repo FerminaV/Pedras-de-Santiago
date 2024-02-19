@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+@font-face {
+  font-family: principal;
+  src: url(assets/fonts/monotype-corsiva.ttf);
+}
+@font-face {
+  font-family: secundaria;
+  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  background-color: #ffffff;
+}
+main {
+  background-image: url(assets/piedras-de-santiago-tradicion-ciudad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+a {
+  color: #ffffff;
+  font-family: secundaria;
+  font-size: 16px;
+  width: 400;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5rem;
+  padding: 2rem;
+  text-decoration: none;
+}
+#centro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  flex-direction: column;
+  padding: 15rem 5rem;
+}
+h1 {
+  font-family: principal;
+  color: #c19d56;
+  font-size: 48px;
+}
+button {
+  background-color: #c19d56;
+  color: #ffffff;
+  font-family: secundaria;
+  font-size: 16px;
+  width: 168px;
+  height: 48px;
+  margin-left: 5rem;
+  border: none;
+}
+#botons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin: 4rem ;
+}
+.fotos {
+  padding-left: 3rem;
+}
+#SobreNos {
+  background-image: url(assets/components/intro-sobre-nosotros.webp);
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 379px;
+  color: #ffffff;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2.5rem;
+}
+#Elaboracion {
+  background-image: url(assets/components/intro-elaboracion.webp);
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 379px;
+  color: #ffffff;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2.5rem;
+}
+#ParaEmpresas {
+  background-image: url(assets/components/intro-para-empresas.webp);
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 379px;
+  color: #ffffff;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2.5rem;
+}
+#Eventos {
+  background-image: url(assets/components/intro-eventos.webp);
+  background-repeat: no-repeat;
+  width: 270px;
+  height: 379px;
+  color: #ffffff;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2.5rem;
+}
+footer {
+    display: flex;
+    padding: 2rem;
+  background-color: #000000;
+  color: #c19d56;
+  font-family: secundaria;
+  
+}
